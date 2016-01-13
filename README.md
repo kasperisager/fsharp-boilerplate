@@ -2,7 +2,7 @@
 
 > Cross-platform [DNX](https://github.com/aspnet/dnx)-based F# boilerplate configured with [xUnit](https://github.com/xunit/xunit) and [FsUnit](http://fsprojects.github.io/FsUnit).
 
-[![Travis](https://img.shields.io/travis/kasperisager/csharp-boilerplate.svg)](https://travis-ci.org/kasperisager/fsharp-boilerplate)
+[![Travis](https://img.shields.io/travis/kasperisager/fsharp-boilerplate.svg)](https://travis-ci.org/kasperisager/fsharp-boilerplate)
 
 ## Legend
 
