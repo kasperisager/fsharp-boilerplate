@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "description": "An example F# application.",
+  "authors": [
+    "Kasper Kronborg Isager <kasperisager@gmail.com>"
+  ],
+  "tags": [
+    "F#",
+    "DNX",
+    "ASP.NET",
+    "Boilerplate",
+    "Example"
+  ],
+  "projectUrl": "https://github.com/kasperisager/fsharp-boilerplate",
+  "licenseUrl": "https://github.com/kasperisager/fsharp-boilerplate/blob/master/LICENSE.md",
+
+  "dependencies": {
+    "FSharp.Dnx": {
+      "type": "build",
+      "version": "1.0.0-*"
+    }
+  },
+
+  "commands": {
+    "run": "run"
+  },
+
+  "frameworks": {
+    "dnx451": {}
+  },
+
+  "compiler": {
+    "name": "F#",
+    "compilerAssembly": "FSharp.Dnx",
+    "compilerType": "FSharp.Dnx.FSharpProjectCompiler"
+  },
+  "fsharp": {
+    "files": [
+      "Foo/Bar.fs",
+      "Program.fs"
+    ]
+  }
+}

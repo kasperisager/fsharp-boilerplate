@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "description": "An example F# test suit.",
+  "authors": [
+    "Kasper Kronborg Isager <kasperisager@gmail.com>"
+  ],
+  "tags": [
+    "F#",
+    "DNX",
+    "ASP.NET",
+    "Boilerplate",
+    "Example"
+  ],
+  "projectUrl": "https://github.com/kasperisager/fsharp-boilerplate",
+  "licenseUrl": "https://github.com/kasperisager/fsharp-boilerplate/blob/master/LICENSE.md",
+
+  "dependencies": {
+    "FSharp.Dnx": {
+      "type": "build",
+      "version": "1.0.0-*"
+    },
+    "Application": "1.0.0",
+    "Xunit": "2.1.0-*",
+    "Xunit.Runner.Dnx": "2.1.0-*",
+    "FsUnit.xUnit": "1.4.1"
+  },
+
+  "commands": {
+    "test": "Xunit.Runner.Dnx"
+  },
+
+  "frameworks": {
+    "dnx451": {}
+  },
+
+  "compiler": {
+    "name": "F#",
+    "compilerAssembly": "FSharp.Dnx",
+    "compilerType": "FSharp.Dnx.FSharpProjectCompiler"
+  },
+  "fsharp": {
+    "files": [
+      "Foo.Test/BarTest.fs"
+    ]
+  }
+}
