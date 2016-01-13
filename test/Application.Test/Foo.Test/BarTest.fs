@@ -6,6 +6,7 @@ open FsUnit.Xunit;
 
 /// <summary>Example unit test module included for the purpose of demonstration.</summary>
 module BarTest =
+  /// <summary>This is a fact and should hold.</summary>
   [<Fact>]
   let Assertion() =
     let bar = new Bar()
